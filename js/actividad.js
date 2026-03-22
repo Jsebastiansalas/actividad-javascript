@@ -6,4 +6,8 @@ let entradaUsuario = {
     pais: "colombia",
     activo: true
 }
+let {
+    email: correo,
+    telefono: contacto
+} = entradaUsuario;
 
