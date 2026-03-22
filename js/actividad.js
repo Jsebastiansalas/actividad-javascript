@@ -10,4 +10,20 @@ let {
     email: correo,
     telefono: contacto
 } = entradaUsuario;
+let usuarioFormateado = {
+    identidad: {
+        ...{nombre,
+        apellido}
+    },
+    contacto: {
+        ...{correo,
+        contacto}
+    },
+    ubicacion: {
+        ...{ciudad,
+        pais}
+    },
+    activo
+
+}
 
