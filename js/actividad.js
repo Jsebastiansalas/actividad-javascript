@@ -1,18 +1,25 @@
 let entradaUsuario = {
     nombre: "sebastian",
     apellido: "salas",
-    telefeno: "3156895466",
+    email: "sebastian@gmail.com",
+    telefono: "3156895466",
     ciudad: "bogota",
     pais: "colombia",
     activo: true
 }
 let {
-    email: correo,
-    telefono: contacto
+  nombre,
+  apellido,
+  email: correo,
+  telefono: contacto,
+  ciudad,
+  pais,
+  activo
 } = entradaUsuario;
+
 let usuarioFormateado = {
     identidad: {
-        ...{nombre,
+        ...{ nombre,
         apellido}
     },
     contacto: {
@@ -26,4 +33,4 @@ let usuarioFormateado = {
     activo
 
 }
-
+console.log(usuarioFormateado);
